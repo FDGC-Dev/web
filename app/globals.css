@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fdgc-bg-primary: #0a0f14;
+  --fdgc-bg-secondary: #0e1724;
+  --fdgc-gold: #d4af37;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--fdgc-bg-primary);
+  color: #f4f4f5;
+  overflow-x: hidden;
+}
+
