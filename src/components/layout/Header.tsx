@@ -44,12 +44,14 @@ export default function Header() {
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
-            <Link
-              href="/get-started"
+            <a
+              href="https://fgdc.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-2.5 text-sm font-medium bg-fdgc-gold text-fdgc-bg-primary border border-transparent hover:bg-fdgc-gold/90 transition-all duration-200"
             >
               Get Started
-            </Link>
+            </a>
           </div>
 
           <button
@@ -96,13 +98,15 @@ export default function Header() {
                   {link.label}
                 </Link>
               ))}
-              <Link
-                href="/get-started"
+              <a
+                href="https://fgdc.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setMobileOpen(false)}
                 className="mt-2 py-3 px-4 text-center font-medium bg-fdgc-gold text-fdgc-bg-primary"
               >
                 Get Started
-              </Link>
+              </a>
             </nav>
           </div>
         )}

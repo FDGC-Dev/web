@@ -25,7 +25,7 @@ export default function CTASection() {
           institutions.
         </p>
         <div className="mt-8 sm:mt-12 flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 [&>*]:w-full sm:[&>*]:w-auto">
-          <LinkButton href="/get-started" variant="primary">
+          <LinkButton href="https://fgdc.vercel.app" external variant="primary">
             Get Started
           </LinkButton>
           <LinkButton href="/documentation" variant="secondary">

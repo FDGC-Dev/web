@@ -40,7 +40,7 @@ const columns = [
         external: true,
       },
       { label: "FAQ", href: "/#faq" },
-      { label: "Contact", href: "/get-started" },
+      { label: "Contact", href: "https://fgdc.vercel.app", external: true },
     ],
   },
   {
